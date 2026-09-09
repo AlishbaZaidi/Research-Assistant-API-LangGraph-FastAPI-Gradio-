@@ -110,4 +110,6 @@ research-assistant-api/
 
 ## Demo
 
-![App screenshot](Screenshots/Screenshot 2026-09-09 201215)
+![App screenshot](Screenshots/AppDemo1)
+![App screenshot](Screenshots/AppDemo2)
+![App screenshot](Screenshots/API1)
