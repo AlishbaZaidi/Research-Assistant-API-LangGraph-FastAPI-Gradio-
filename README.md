@@ -100,13 +100,12 @@ curl -X POST http://127.0.0.1:8000/research \
 - Add response caching to avoid re-running identical topics
 
 ## Project Structure
-
-research-assistant-api/
 ```
+research-assistant-api/
 ├── app.py # FastAPI + LangGraph + Gradio (single entrypoint)
 ├── requirements.txt
 └── .env # not committed — holds GROQ_API_KEY
 ```
 
 ## Demo
-![App screenshot](Screenshots/AppDemo2)
+![App screenshot](Screenshots/AppDemo2.png)
