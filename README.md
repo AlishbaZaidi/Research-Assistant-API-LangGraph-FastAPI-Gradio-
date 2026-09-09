@@ -1,6 +1,6 @@
 # 🔬 Research Assistant API
 
-A multi-step research automation pipeline that takes a topic, searches the web, summarizes findings, extracts checkable factual claims, and fact-checks the top claim against a second targeted search — exposed both as a REST API and an interactive Gradio UI.
+A multi-step research automation pipeline that takes a topic, searches the web, summarizes findings, extracts checkable factual claims, and fact-checks the top claim against a second targeted search - exposed both as a REST API and an interactive Gradio UI.
 
 ## Why I Built This
 
@@ -9,7 +9,7 @@ Most LLM demos stop at "search and summarize." This project pushes further into 
 ## Features
 
 - **4-stage LangGraph workflow**: `search → summarize → extract_claims → fact_check`
-- **REST API** (FastAPI) for programmatic access — `POST /research`
+- **REST API** (FastAPI) for programmatic access - `POST /research`
 - **Interactive Gradio UI** mounted on the same server at `/gradio`
 - **Web search tool** (DuckDuckGo) with error-safe wrapping so a failed search doesn't crash the pipeline
 - **Structured, typed state** across the graph (`TypedDict`) so every node has a clear contract
@@ -27,7 +27,7 @@ Most LLM demos stop at "search and summarize." This project pushes further into 
 
 ## Architecture
 Topic
-│
+|
 ▼
 [search] ──> raw web results
 │
