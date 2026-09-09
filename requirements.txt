@@ -1,0 +1,9 @@
+fastapi                # web framework for building the REST API
+uvicorn                # ASGI server that actually runs the FastAPI app
+langgraph               # graph-based orchestration — defines nodes, edges, state
+langchain-groq          # connector so LangChain/LangGraph can call Groq's LLMs
+langchain-community     # provides the DuckDuckGo search tool wrapper
+ddgs                    # backend library the DuckDuckGo search tool depends on
+python-dotenv           # loads GROQ_API_KEY from .env instead of hardcoding it
+pydantic                # data validation for the API's request/response models
+gradio                  #Frontend
