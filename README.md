@@ -107,3 +107,7 @@ research-assistant-api/
 ├── requirements.txt
 └── .env # not committed — holds GROQ_API_KEY
 ```
+
+## Demo
+
+![App screenshot](Screenshots/Screenshot 2026-09-09 201215)
