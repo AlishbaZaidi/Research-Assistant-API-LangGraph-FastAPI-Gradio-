@@ -109,7 +109,4 @@ research-assistant-api/
 ```
 
 ## Demo
-
-![App screenshot](Screenshots/AppDemo1)
 ![App screenshot](Screenshots/AppDemo2)
-![App screenshot](Screenshots/API1)
