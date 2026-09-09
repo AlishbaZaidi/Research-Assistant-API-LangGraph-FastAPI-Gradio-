@@ -109,3 +109,6 @@ research-assistant-api/
 
 ## Demo
 ![App screenshot](Screenshots/AppDemo2.png)
+
+## Author
+Syeda Alishba Zaidi — [LinkedIn](https://www.linkedin.com/in/alishba-zaidi)
