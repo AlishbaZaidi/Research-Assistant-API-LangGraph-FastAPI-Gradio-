@@ -26,6 +26,7 @@ Most LLM demos stop at "search and summarize." This project pushes further into 
 - **Server**: Uvicorn
 
 ## Architecture
+```
 Topic
 |
 ▼
@@ -42,7 +43,7 @@ Topic
 │
 ▼
 JSON response (topic, summary, claims, fact_check_result)
-
+```
 
 ## Setup & Installation
 
@@ -101,6 +102,8 @@ curl -X POST http://127.0.0.1:8000/research \
 ## Project Structure
 
 research-assistant-api/
+```
 ├── app.py # FastAPI + LangGraph + Gradio (single entrypoint)
 ├── requirements.txt
 └── .env # not committed — holds GROQ_API_KEY
+```
